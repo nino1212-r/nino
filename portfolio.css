@@ -1,0 +1,124 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+	background-color: black;
+
+.container {
+    max-width: 10000px;
+    padding: 20px;
+	display: flex;
+	background-color: rgba(255, 255, 255, 0.5); /* Adjust the last value (alpha) to change transparency */
+	padding: 20px;
+	border-radius: 10px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.lottie-container {
+  flex: 1;
+}
+
+/* Adjustments for other sections */
+section {
+  flex: 1;
+  padding: 20px;
+}
+
+nav {
+    text-align: left; /* Align the nav links to the left */
+}
+
+nav form {
+    display: inline-block;
+    margin-right: 20px; /* Add margin to separate the forms */
+}
+
+nav button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav button:hover {
+    background-color: red;
+}
+#submit:hover {
+    background-color: red;
+}
+
+section {
+    margin-bottom: 40px;
+	left; 50px;
+}
+
+section > * { /* Target direct children elements of sections */
+    text-align: left; /* Align section content to the left */
+	
+}
+
+h2, p,li {
+    color: white;
+
+}
+h2 {
+	color: red;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+	font-size: 50px;
+	
+}
+
+
+.left-aligned-image {
+    float: right;
+    margin-right: 10px; /* Adjust the margin as needed */
+
+}
+#welcome {
+    color: red; /* Change color to red */
+}
+
+#portfolio {
+    color: white; /* Change color to white */
+}
+
+#hello {
+    color: white; /* Change color to white */
+}
+#name {
+    color: white; /* Change color to white */
+}
+#skill {
+    color: red; /* Change color to white */
+}
+#skills {
+    color: white; /* Change color to white */
+}
+#last {
+    color: red; /* Change color to white */
+}
+
+.social-button {
+    display: inline-block;
+    margin-right: 10px; /* Adjust spacing between icons if needed */
+}
+
+
