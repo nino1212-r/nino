@@ -4,13 +4,18 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-	background-color: black;
 
+    background-image: url(hi.jpg.jpg);
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+    background-size: auto;
+}
 .container {
     max-width: 10000px;
     padding: 20px;
 	display: flex;
-	background-color: rgba(255, 255, 255, 0.5); /* Adjust the last value (alpha) to change transparency */
+	background-color: rgba(266, 266, 266, 0.1); /* Adjust the last value (alpha) to change transparency */
 	padding: 20px;
 	border-radius: 10px;
 }
@@ -18,6 +23,7 @@ body {
 header {
     text-align: center;
     margin-bottom: 30px;
+
 }
 .lottie-container {
   flex: 1;
@@ -58,7 +64,7 @@ nav button:hover {
 
 section {
     margin-bottom: 40px;
-	left; 50px;
+
 }
 
 section > * { /* Target direct children elements of sections */
@@ -101,10 +107,13 @@ h2 {
 }
 
 #hello {
-    color: white; /* Change color to white */
+    color: white;
+	font-size: 24px;
+    font-weight: bold;	/* Change color to white */
 }
 #name {
-    color: white; /* Change color to white */
+    color: white;
+		font-style: oblique;	/* Change color to white */
 }
 #skill {
     color: red; /* Change color to white */
